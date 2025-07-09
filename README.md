@@ -2,6 +2,8 @@
 
 This repository provides a scaffold to build applications on the Hyli network using Risc0 contracts.
 
+For step-by-step instructions, [follow our quickstart](https://docs.hyli.org/quickstart/run.md).
+
 ## Architecture
 
 The application follows a client-server model:
