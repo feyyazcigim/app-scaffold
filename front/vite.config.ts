@@ -8,6 +8,14 @@ export default defineConfig({
     esbuildOptions: { target: "esnext" },
     exclude: ["@noir-lang/noirc_abi", "@noir-lang/acvm_js"],
   },
+  resolve: {
+    alias: {
+      buffer: 'buffer',
+    },
+  },
+  define: {
+    global: 'globalThis',
+  },
   server: {
     fs: {
       allow: ['../..'],
